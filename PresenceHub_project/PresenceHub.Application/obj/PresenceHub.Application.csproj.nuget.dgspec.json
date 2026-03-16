@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\PresenceHub.Application.csproj": {}
+    "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\PresenceHub.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\PresenceHub.Application.csproj": {
+    "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\PresenceHub.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\PresenceHub.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\PresenceHub.Application.csproj",
         "projectName": "PresenceHub.Application",
-        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\PresenceHub.Application.csproj",
+        "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\PresenceHub.Application.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\obj\\",
+        "outputPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,32 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[16.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[10.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
