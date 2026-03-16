@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="PresenceHub.Application/PresenceHub.Application.csproj" />
+  <Project Path="PresenceHub.Domain/PresenceHub.Domain.csproj" />
+  <Project Path="PresenceHub.Infrastructure/PresenceHub.Infrastructure.csproj" />
+  <Project Path="PresenceHub/PresenceHub.csproj" />
+</Solution>
