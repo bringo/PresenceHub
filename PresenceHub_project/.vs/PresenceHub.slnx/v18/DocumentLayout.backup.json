@@ -1,18 +1,74 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\",
+  "WorkspaceRootPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{57AE66F7-B1A5-4117-9553-8DC74EEDBF53}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{57AE66F7-B1A5-4117-9553-8DC74EEDBF53}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\entity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6BEEF2D1-A0D7-4F0A-BDDD-B5BA4616136D}|PresenceHub.Application\\PresenceHub.Application.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6BEEF2D1-A0D7-4F0A-BDDD-B5BA4616136D}|PresenceHub.Application\\PresenceHub.Application.csproj|solutionrelative:presencehub.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.domain\\entity\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\entity\\attendance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEB34A7E-F4C1-4B5B-912B-43AB475FED3C}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEB34A7E-F4C1-4B5B-912B-43AB475FED3C}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|solutionrelative:presencehub.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.domain\\entity\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\entity\\userdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.domain\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\entity\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1897D6-D378-8204-498F-38811486B2EB}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.infrastructure\\db context\\hubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1897D6-D378-8204-498F-38811486B2EB}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|solutionrelative:presencehub.infrastructure\\db context\\hubdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8CECEC-9AF5-4CAE-C885-4DD2D46184BC}|PresenceHub\\PresenceHub.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF8CECEC-9AF5-4CAE-C885-4DD2D46184BC}|PresenceHub\\PresenceHub.csproj|solutionrelative:presencehub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1897D6-D378-8204-498F-38811486B2EB}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.infrastructure\\presencehub.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7A1897D6-D378-8204-498F-38811486B2EB}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|solutionrelative:presencehub.infrastructure\\presencehub.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8CECEC-9AF5-4CAE-C885-4DD2D46184BC}|PresenceHub\\PresenceHub.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DF8CECEC-9AF5-4CAE-C885-4DD2D46184BC}|PresenceHub\\PresenceHub.csproj|solutionrelative:presencehub\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF8CECEC-9AF5-4CAE-C885-4DD2D46184BC}|PresenceHub\\PresenceHub.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub\\presencehub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DF8CECEC-9AF5-4CAE-C885-4DD2D46184BC}|PresenceHub\\PresenceHub.csproj|solutionrelative:presencehub\\presencehub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.application\\presencehub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|solutionrelative:presencehub.application\\presencehub.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.application\\mapper\\hubmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|solutionrelative:presencehub.application\\mapper\\hubmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.application\\dto\\hubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|solutionrelative:presencehub.application\\dto\\hubdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.application\\interfaceservice\\ihubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|solutionrelative:presencehub.application\\interfaceservice\\ihubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.application\\service\\hubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34BA9997-4158-C7F4-9A94-8C6BF921C859}|PresenceHub.Application\\PresenceHub.Application.csproj|solutionrelative:presencehub.application\\service\\hubservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A1897D6-D378-8204-498F-38811486B2EB}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.infrastructure\\repositories\\hubrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A1897D6-D378-8204-498F-38811486B2EB}|PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj|solutionrelative:presencehub.infrastructure\\repositories\\hubrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.domain\\interfacerepo\\irepointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\interfacerepo\\irepointerface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|c:\\users\\admin\\source\\repos\\presencehub\\presencehub_project\\presencehub.domain\\presencehub.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{65C9A840-790D-DBB6-CF1D-657D7F4C1721}|PresenceHub.Domain\\PresenceHub.Domain.csproj|solutionrelative:presencehub.domain\\presencehub.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +78,227 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Infrastructure\\Class1.cs",
-              "RelativeDocumentMoniker": "PresenceHub.Infrastructure\\Class1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Infrastructure\\Class1.cs",
-              "RelativeToolTip": "PresenceHub.Infrastructure\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Title": "UserDetails.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\UserDetails.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Domain\\Entity\\UserDetails.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\UserDetails.cs*",
+              "RelativeToolTip": "PresenceHub.Domain\\Entity\\UserDetails.cs*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T03:55:40.618Z",
+              "WhenOpened": "2026-03-17T10:36:34.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PresenceHub",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub\\PresenceHub.csproj",
+              "RelativeDocumentMoniker": "PresenceHub\\PresenceHub.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub\\PresenceHub.csproj",
+              "RelativeToolTip": "PresenceHub\\PresenceHub.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T10:14:57.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub\\Program.cs",
+              "RelativeDocumentMoniker": "PresenceHub\\Program.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub\\Program.cs",
+              "RelativeToolTip": "PresenceHub\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T10:12:32.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub\\appsettings.json",
+              "RelativeDocumentMoniker": "PresenceHub\\appsettings.json",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub\\appsettings.json",
+              "RelativeToolTip": "PresenceHub\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T10:10:27.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PresenceHub.Application",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\PresenceHub.Application.csproj",
+              "RelativeDocumentMoniker": "PresenceHub.Application\\PresenceHub.Application.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\PresenceHub.Application.csproj",
+              "RelativeToolTip": "PresenceHub.Application\\PresenceHub.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T10:08:34.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PresenceHub.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj",
+              "RelativeToolTip": "PresenceHub.Infrastructure\\PresenceHub.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-17T10:08:17.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\Class1.cs",
-              "RelativeDocumentMoniker": "PresenceHub.Application\\Class1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Application\\Class1.cs",
-              "RelativeToolTip": "PresenceHub.Application\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Attendance.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\Attendance.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Domain\\Entity\\Attendance.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\Attendance.cs*",
+              "RelativeToolTip": "PresenceHub.Domain\\Entity\\Attendance.cs*",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T03:54:20.01Z",
+              "WhenOpened": "2026-03-17T06:53:57.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\Role.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Domain\\Entity\\Role.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\Role.cs*",
+              "RelativeToolTip": "PresenceHub.Domain\\Entity\\Role.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T06:52:17.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "PresenceHub.Domain\\Class1.cs",
-              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub.Domain\\Class1.cs",
-              "RelativeToolTip": "PresenceHub.Domain\\Class1.cs",
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\User.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Domain\\Entity\\User.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\Entity\\User.cs*",
+              "RelativeToolTip": "PresenceHub.Domain\\Entity\\User.cs*",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA5wBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T06:21:23.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HubMapping.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\Mapper\\HubMapping.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Application\\Mapper\\HubMapping.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\Mapper\\HubMapping.cs",
+              "RelativeToolTip": "PresenceHub.Application\\Mapper\\HubMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:52:49.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HubDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\DTO\\HubDTO.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Application\\DTO\\HubDTO.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\DTO\\HubDTO.cs",
+              "RelativeToolTip": "PresenceHub.Application\\DTO\\HubDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-16T03:49:26.561Z",
+              "WhenOpened": "2026-03-16T05:50:24.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IHubService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\InterfaceService\\IHubService.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Application\\InterfaceService\\IHubService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\InterfaceService\\IHubService.cs",
+              "RelativeToolTip": "PresenceHub.Application\\InterfaceService\\IHubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:49:17.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HubService.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\Service\\HubService.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Application\\Service\\HubService.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Application\\Service\\HubService.cs",
+              "RelativeToolTip": "PresenceHub.Application\\Service\\HubService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:48:24.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "HubRepo.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Infrastructure\\Repositories\\HubRepo.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Infrastructure\\Repositories\\HubRepo.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Infrastructure\\Repositories\\HubRepo.cs",
+              "RelativeToolTip": "PresenceHub.Infrastructure\\Repositories\\HubRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:46:33.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HubDBcontext.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Infrastructure\\DB Context\\HubDBcontext.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Infrastructure\\DB Context\\HubDBcontext.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Infrastructure\\DB Context\\HubDBcontext.cs*",
+              "RelativeToolTip": "PresenceHub.Infrastructure\\DB Context\\HubDBcontext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:45:31.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IRepoInterface.cs",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\InterfaceRepo\\IRepoInterface.cs",
+              "RelativeDocumentMoniker": "PresenceHub.Domain\\InterfaceRepo\\IRepoInterface.cs",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\InterfaceRepo\\IRepoInterface.cs",
+              "RelativeToolTip": "PresenceHub.Domain\\InterfaceRepo\\IRepoInterface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T05:41:50.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PresenceHub.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\PresenceHub.Domain.csproj",
+              "RelativeDocumentMoniker": "PresenceHub.Domain\\PresenceHub.Domain.csproj",
+              "ToolTip": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\PresenceHub.Domain.csproj",
+              "RelativeToolTip": "PresenceHub.Domain\\PresenceHub.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-16T05:39:01.484Z",
               "EditorCaption": ""
             }
           ]

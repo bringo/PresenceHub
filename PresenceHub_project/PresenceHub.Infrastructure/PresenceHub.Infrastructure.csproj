@@ -19,4 +19,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PresenceHub.Application\PresenceHub.Application.csproj" />
+    <ProjectReference Include="..\PresenceHub.Domain\PresenceHub.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

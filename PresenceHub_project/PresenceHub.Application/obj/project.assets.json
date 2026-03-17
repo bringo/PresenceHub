@@ -1264,6 +1264,20 @@
         "build": {
           "buildTransitive/net8.0/_._": {}
         }
+      },
+      "PresenceHub.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "10.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.5"
+        },
+        "compile": {
+          "bin/placeholder/PresenceHub.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PresenceHub.Domain.dll": {}
+        }
       }
     }
   },
@@ -3696,6 +3710,11 @@
         "system.security.cryptography.protecteddata.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "PresenceHub.Domain/1.0.0": {
+      "type": "project",
+      "path": "../PresenceHub.Domain/PresenceHub.Domain.csproj",
+      "msbuildProject": "../PresenceHub.Domain/PresenceHub.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3704,7 +3723,8 @@
       "Microsoft.EntityFrameworkCore >= 10.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.5",
-      "Microsoft.EntityFrameworkCore.Tools >= 10.0.5"
+      "Microsoft.EntityFrameworkCore.Tools >= 10.0.5",
+      "PresenceHub.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -3738,7 +3758,11 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\PresenceHub.Domain.csproj": {
+              "projectPath": "C:\\Users\\ADMIN\\source\\repos\\PresenceHub\\PresenceHub_project\\PresenceHub.Domain\\PresenceHub.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

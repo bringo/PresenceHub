@@ -4,7 +4,7 @@ using System.Text;
 
 namespace PresenceHub.Application.Mapper
 {
-    internal class HubMapping
+    public class HubMapping
     {
     }
 }
