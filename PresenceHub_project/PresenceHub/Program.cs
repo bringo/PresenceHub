@@ -1,4 +1,8 @@
 
+using Microsoft.EntityFrameworkCore;
+using PresenceHub.Infrastructure.DB_Context;
+
+
 namespace PresenceHub
 {
     public class Program
@@ -12,6 +16,8 @@ namespace PresenceHub
             builder.Services.AddControllers();
             // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
             builder.Services.AddOpenApi();
+            builder.Services.AddDbContext<HubDBcontext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
