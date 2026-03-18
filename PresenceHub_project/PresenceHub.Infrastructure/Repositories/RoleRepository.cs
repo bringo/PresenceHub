@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PresenceHub.Application.DTO
+namespace PresenceHub.Infrastructure.Repositories
 {
-    internal class HubDTO
+    public class HubRepo
     {
+
+
     }
 }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PresenceHub.Domain.InterfaceRepo
+namespace PresenceHub.Application.Service
 {
-    internal class IRepoInterface
+    public class HubService
     {
     }
 }

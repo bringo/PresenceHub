@@ -17,6 +17,21 @@ namespace PresenceHub.Infrastructure.DB_Context
         public DbSet<UserDetails> UserDetails { get; set; }
         public DbSet<Attendance> Attendances { get; set; }
         public DbSet<Role> Role { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Attendance>()
+                .HasOne(a => a.User)
+                .WithMany()
+                .HasForeignKey(a => a.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Attendance>()
+                .HasOne(a => a.RecordedUser)
+                .WithMany()
+                .HasForeignKey(a => a.RecordedBy)
+                .OnDelete(DeleteBehavior.Restrict);
+        }
     }
 
 }
