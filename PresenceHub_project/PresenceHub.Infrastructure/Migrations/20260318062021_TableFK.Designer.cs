@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using PresenceHub.Infrastructure.DB_Context;
 
@@ -11,9 +12,11 @@ using PresenceHub.Infrastructure.DB_Context;
 namespace PresenceHub.Infrastructure.Migrations
 {
     [DbContext(typeof(HubDBcontext))]
-    partial class HubDBcontextModelSnapshot : ModelSnapshot
+    [Migration("20260318062021_TableFK")]
+    partial class TableFK
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
