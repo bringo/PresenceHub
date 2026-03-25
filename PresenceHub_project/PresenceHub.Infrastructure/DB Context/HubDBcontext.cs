@@ -6,23 +6,28 @@ using System.Text;
 
 namespace PresenceHub.Infrastructure.DB_Context
 {
-   public class HubDBcontext:DbContext
+    public class HubDBcontext : DbContext
     {
+        public HubDBcontext(DbContextOptions<HubDBcontext> options)
+            : base(options) { }
 
-        public HubDBcontext(DbContextOptions<HubDBcontext>options):base(options)
-        {
-            
-        }
-       public DbSet<User> User {  get; set; }
+        public DbSet<User> User { get; set; }
         public DbSet<UserDetails> UserDetails { get; set; }
-        public DbSet<Attendance> Attendances { get; set; }
         public DbSet<Role> Role { get; set; }
+        public DbSet<Attendance> Attendances { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<User>()
+                .HasOne(u => u.UserDetails)
+                .WithOne(ud => ud.User)
+                .HasForeignKey<UserDetails>(ud => ud.UserId);
+
             modelBuilder.Entity<Attendance>()
                 .HasOne(a => a.User)
-                .WithMany()
+                .WithMany(u => u.Attendance)
                 .HasForeignKey(a => a.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
@@ -31,7 +36,8 @@ namespace PresenceHub.Infrastructure.DB_Context
                 .WithMany()
                 .HasForeignKey(a => a.RecordedBy)
                 .OnDelete(DeleteBehavior.Restrict);
+
+
         }
     }
-
 }

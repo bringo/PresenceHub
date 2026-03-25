@@ -10,13 +10,16 @@ namespace PresenceHub.Domain.Entity
     {
         [Key]
         public int Id { get; set; }
+
         public string Username { get; set; }
-        public string Password { get; set; }
+        public string Password { get; set; } // store hashed in real apps
         public string Email { get; set; }
-        [ForeignKey("RoleId")]
+
         public int RoleId { get; set; }
         public DateTime CreationTime { get; set; }
+
         public Role Role { get; set; }
+
         public UserDetails UserDetails { get; set; }
         public ICollection<Attendance> Attendance { get; set; }
     }

@@ -4,7 +4,10 @@ using System.Text;
 
 namespace PresenceHub.Application.DTO
 {
-    public class UserDTO
+    public class LoginDto
+
     {
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }
