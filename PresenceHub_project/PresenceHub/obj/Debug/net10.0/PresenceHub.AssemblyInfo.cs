@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PresenceHub")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+af1864003397dcc8940678fa7351e25f59376c0b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3913ff3763e07fbb32ad94b720255a44eee00377")]
 [assembly: System.Reflection.AssemblyProductAttribute("PresenceHub")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PresenceHub")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

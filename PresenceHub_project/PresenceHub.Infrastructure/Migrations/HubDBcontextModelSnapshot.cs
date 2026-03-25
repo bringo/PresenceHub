@@ -47,16 +47,11 @@ namespace PresenceHub.Infrastructure.Migrations
                     b.Property<int>("UserId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("UserId1")
-                        .HasColumnType("int");
-
                     b.HasKey("AttendanceId");
 
                     b.HasIndex("RecordedBy");
 
                     b.HasIndex("UserId");
-
-                    b.HasIndex("UserId1");
 
                     b.ToTable("Attendances");
                 });
@@ -127,12 +122,12 @@ namespace PresenceHub.Infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateOnly>("DOB")
-                        .HasColumnType("date");
-
                     b.Property<string>("Department")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateOnly>("Dob")
+                        .HasColumnType("date");
 
                     b.Property<string>("Fullname")
                         .IsRequired()
@@ -169,14 +164,10 @@ namespace PresenceHub.Infrastructure.Migrations
                         .IsRequired();
 
                     b.HasOne("PresenceHub.Domain.Entity.User", "User")
-                        .WithMany()
+                        .WithMany("Attendance")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
-
-                    b.HasOne("PresenceHub.Domain.Entity.User", null)
-                        .WithMany("Attendance")
-                        .HasForeignKey("UserId1");
 
                     b.Navigation("RecordedUser");
 
@@ -186,7 +177,7 @@ namespace PresenceHub.Infrastructure.Migrations
             modelBuilder.Entity("PresenceHub.Domain.Entity.User", b =>
                 {
                     b.HasOne("PresenceHub.Domain.Entity.Role", "Role")
-                        .WithMany()
+                        .WithMany("Users")
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -203,6 +194,11 @@ namespace PresenceHub.Infrastructure.Migrations
                         .IsRequired();
 
                     b.Navigation("User");
+                });
+
+            modelBuilder.Entity("PresenceHub.Domain.Entity.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("PresenceHub.Domain.Entity.User", b =>

@@ -5,12 +5,12 @@ using System.Text;
 
 namespace PresenceHub.Domain.InterfaceRepo
 {
-    public class IRoleRepository
+    public interface IRoleRepository
     {
         Task<List<Role>> GetAllAsync();
         Task<Role?> GetByIdAsync(int id);
         Task<Role> CreateAsync(Role role);
         Task<Role> UpdateAsync(Role role);
-        Task<bool> DeleteAsync(int id);
+        Task<Role> DeleteAsync(int id);
     }
 }
